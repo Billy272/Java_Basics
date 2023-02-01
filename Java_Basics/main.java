@@ -1,5 +1,5 @@
 class customer{
-    name: string;
+    name: String;
     email: string;
     region: string;
     country: string;
