@@ -1,5 +1,5 @@
 package Trade;
-import java.util.Scanner;
+
 public class customer {
     public String Name;
     public String Email;
@@ -22,6 +22,6 @@ public class customer {
 //create methods to display
     public void displayDetails(){
         System.out.println("Name: "+ Name+" Email: "+ Email+" Credit Limit: "+ CreditLimit);
-        
+    
     }
 }
