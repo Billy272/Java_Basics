@@ -1,4 +1,5 @@
 package Trade;
+import util.scanner;
 
 public class main {
     public static void main(String[] args){
