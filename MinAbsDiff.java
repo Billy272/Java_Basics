@@ -1,6 +1,23 @@
 import java.util.*;
 
+// This class implements a solution to find the minimum absolute difference
+
+// In real life, this code can be used in scenarios where you need to 
+// analyze a grid of values and find the minimum absolute difference
+// between distinct values within subgrids of a specified size. 
+// For example, it could be applied in image processing to analyze pixel 
+// intensity differences, in geographical data analysis to find variations
+// in elevation or temperature, or in any situation where you need to 
+// compare values within localized regions of a larger dataset. 
+// The method `minAbsDiff` takes a 2D grid and an integer `k`, and 
+// returns a new 2D array containing the minimum absolute difference 
+// for each k x k subgrid within the original grid.
 class MinAbsDiff {
+    // The `minAbsDiff` method iterates through the grid and calculates 
+    // the minimum absolute difference for each k x k subgrid by calling 
+    // the `getMinDiff` helper method, which uses a TreeSet to store distinct 
+    // values and compute the minimum difference between them efficiently. 
+    // The results are stored in a new 2D array that is returned at the end.
     public int[][] minAbsDiff(int[][] grid, int k) {
         int n = grid.length;
         int m = grid[0].length;
