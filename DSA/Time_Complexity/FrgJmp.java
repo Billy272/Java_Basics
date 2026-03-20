@@ -1,5 +1,10 @@
 package DSA.Time_Complexity;
 
+// In world projects, it used in scenarios such as calculating 
+// the number of jumps needed for a frog to reach a certain distance, 
+// which can be useful in various applications like game development, 
+// robotics, or any situation where you need to determine the number 
+// of steps required to cover a specific distance with fixed step sizes.
 public class FrgJmp {
     public int solution(int X, int Y, int D) {
         // Implement your solution here

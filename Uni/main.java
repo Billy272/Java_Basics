@@ -23,7 +23,7 @@ public class main {
         lecturer L = new lecturer();
         L.setUnitName("Calculus");
         L.setFirstName("Dr. Bitok");
-        L.setLastName("Diasco");
+        L.setLastName("Dco");
         L.setEmail("email@gmail.com");
 
     System.out.println("First Name: "+L.getFirstName()+"Last Name: "+L.getLastName()+"Email: "+L.getEmail()+"Unit: "+L.getUnitName());

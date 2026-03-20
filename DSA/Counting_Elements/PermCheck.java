@@ -1,5 +1,13 @@
 package DSA.Counting_Elements;
 
+// The PermCheck class implements a solution to the Perm Check problem, 
+// which is a common coding challenge that asks whether a given array 
+// of integers is a permutation of the first N natural numbers. 
+// A permutation is defined as a sequence containing each element 
+// from 1 to N exactly once. The solution uses a boolean array to track 
+// which numbers have been seen in the input array and checks for duplicates 
+// or numbers greater than N to determine if the input array forms a valid permutation.
+// Can be used in projects like data validation, shuffling algorithms etc..
 public class PermCheck {
     public int solution(int[] A) {
         // Implement your solution here

@@ -1,5 +1,10 @@
 package DSA.Prefix_Sums;
 
+// The PassingCars problem can be used in real-life scenarios such as 
+// traffic analysis to determine the number of passing pairs of vehicles 
+// on a road, or in network analysis to count the number of interactions
+// between two types of entities (e.g., users and items) based on their 
+// interactions represented as 0s and 1s in an array.
 public class PassingCars {
     public int solution(int[] A) {
         // Implement your solution here
@@ -13,7 +18,7 @@ public class PassingCars {
             if (car == 0) {
                 eastCars++;
             } else {
-                // When we encounter a west-bound car, we add the number of east-bound cars we've seen so far to the total count of passing pairs, since each east-bound car will pass the current
+                // When we encounter a west-bound car, we add the number of east-bound cars we've seen so far to the total count of passing pairs, since each east-bound car will pass the current west-bound car
                 passingPairs += eastCars;
 
                 // Check if the total number of passing pairs exceeds the limit of 1,000,000,000 and return -1 if it does, as specified in the problem statement

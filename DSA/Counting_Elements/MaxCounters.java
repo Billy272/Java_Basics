@@ -1,5 +1,10 @@
 package DSA.Counting_Elements;
 
+// You can run this code in the main method to test the solution with different inputs
+// The MaxCounters class implements a solution to the Max Counters problem, which is a common
+// coding challenge that asks for the final state of a set of counters after a series of operations.
+// The operations can either increment a specific counter or set all counters to the maximum value of any
+// counter at that point in time. The solution efficiently handles these operations to produce the final state of the counters.
 public class MaxCounters {
      public int[] solution(int N, int[] A) {
         // Implement your solution here

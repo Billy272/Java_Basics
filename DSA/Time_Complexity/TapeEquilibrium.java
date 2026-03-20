@@ -1,5 +1,14 @@
 package DSA.Time_Complexity;
 
+// Its best use case is in scenarios where you have a tape 
+// or a sequence of elements and you want to find the point 
+// at which the difference between the sum of the left part 
+// and the sum of the right part is minimized.
+// For example, if you have a tape with numbers and you want 
+// to cut it into two parts such that the absolute difference 
+// between the sum of the numbers on the left and the sum of 
+// the numbers on the right is as small as possible, you can 
+// use this algorithm to find the optimal cutting point efficiently.
 public class TapeEquilibrium {
     public int solution(int[] A) {
         // Implement your solution here

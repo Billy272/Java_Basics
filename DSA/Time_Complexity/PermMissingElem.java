@@ -1,5 +1,10 @@
 package DSA.Time_Complexity;
 
+// This is used in scenarios where you have a sequence 
+// of numbers and one number is missing from the sequence.
+// For example, if you have a list of employee IDs from 1 to N, 
+// and one employee ID is missing, you can use this algorithm to 
+// find the missing ID efficiently.
 public class PermMissingElem {
     // Implement your solution here
     // The function takes an array of integers A as input and returns the missing element in the array

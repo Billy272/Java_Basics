@@ -1,5 +1,14 @@
 package DSA.Arrays;
 
+// This is used in scenarios where you have an array and you want to 
+// rotate its elements to the right by a certain number of positions.
+// For example, if you have an array representing a queue of people 
+// and you want to rotate the queue to the right by K positions, 
+// you can use this algorithm to efficiently perform the rotation 
+// without needing to create multiple temporary arrays or perform multiple shifts.
+// This can be useful in various applications such as scheduling,
+// data manipulation, or any situation where you need to rearrange 
+// elements in a cyclic manner.
 public class CyclicRotation {
     public int[] solution(int[] A, int K) {
         // Implement your solution here
