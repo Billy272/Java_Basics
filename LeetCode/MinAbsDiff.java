@@ -1,3 +1,4 @@
+package LeetCode;
 import java.util.*;
 
 // This class implements a solution to find the minimum absolute difference
