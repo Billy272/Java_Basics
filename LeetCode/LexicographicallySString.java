@@ -19,8 +19,7 @@ import java.util.*;
 //  string based on certain constraints.
 
 public class LexicographicallySString {
-    public:
-        String generateString(String str1, String str2) {
+    public String generateString(String str1, String str2) {
         int n = str1.length(), m = str2.length();
         int totalLen = n + m - 1;
         char[] ans = new char[totalLen];
