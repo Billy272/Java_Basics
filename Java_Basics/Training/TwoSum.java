@@ -1,5 +1,12 @@
 package Training;
 
+// This problem solves Brute Force Pattern
+// The pattern appears in:
+//  - Pair Problems
+//  - Triplet Problems
+//  - Subarrays
+//  - String Combinations
+
 public class TwoSum {
     public static int[] twoSum(int[] nums, int target) {
         for (int i = 0; i < nums.length; i++) {
@@ -9,17 +16,16 @@ public class TwoSum {
                 }
             }
         }
-
         return new int[]{};
     }
 
     public static void main(String[] args) {
-        int[] nums = { 3, 3, 4};
-        int[] result =  twoSum(nums, 6);
+        int[] nums = { 1, 2, 4, 5};
+        int[] result = twoSum(nums, 9);
         if (result.length == 2) {
             System.out.println(result[0] + ", " + result[1]);
         } else {
-            System.out.println("No Solution found");
+            System.out.println("No Results Found");
         }
     }
 }
