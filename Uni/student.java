@@ -1,4 +1,4 @@
-package Java_Basics.Uni;
+package Uni;
 
 public class student extends schoolPersons{
     private int Marks;

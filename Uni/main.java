@@ -1,7 +1,7 @@
-package Java_Basics.Uni;
+package Uni;
 
 public class main {
-    public static void mainClass(String[] args){
+    public static void main(String[] args){
         student S = new student();
         S.setMarks(71);
         S.setRegNo("R1");
