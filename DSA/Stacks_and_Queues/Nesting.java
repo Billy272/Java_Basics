@@ -17,7 +17,7 @@ package DSA.Stacks_and_Queues;
 // a corresponding opening parenthesis, and the function returns 0 to 
 // indicate that the parentheses are not properly nested. Finally, 
 // if the counter is zero at the end of the string, it means all 
-// parentheses are properly nested, and the function returns 1; 
+// parentheses are properly nested, and the function returns 1
 // otherwise, it returns 0. This approach efficiently checks for valid 
 // nesting of parentheses in a single pass through the string.
 

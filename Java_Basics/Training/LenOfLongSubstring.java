@@ -10,6 +10,5 @@ public class LenOfLongSubstring {
 
     public static void main(String[] args) {
         String s = "abcda";
-
     }
 }

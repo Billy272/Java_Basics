@@ -5,17 +5,18 @@ class customer{
     country: string;
     accountNumber: string;
 
-@Override
+    @Override
     protected Object clone() throws CloneNotSupportedException {
         // TODO Auto-generated method stub
         return super.clone();
     }
+}
 
 public customer(customer c1) {
         C1 = c1;
     }
 
-}
+
 public customer(customer c1) {
         C1 = c1;
     }
